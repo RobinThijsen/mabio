@@ -1,0 +1,24 @@
+li.blop-link {
+  width: 108px;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  transition: all .5s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    transition: $transition-all;
+  }
+
+  &:hover {
+    transform: rotate(-20deg);
+
+    img {
+      transform: scale(1.2) rotate(20deg);
+    }
+  }
+}

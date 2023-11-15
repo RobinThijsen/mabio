@@ -1,0 +1,36 @@
+img.coq-draw,
+img.coq-draw-bg {
+  position: absolute;
+  animation: scroll-animation-coq 2s both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50%;
+}
+
+img.coq-draw {
+  z-index: 200;
+  right: -205px;
+  top: 190px;
+}
+
+img.coq-draw-bg {
+  z-index: 150;
+  right: -780px;
+  top: -65px;
+}
+
+@keyframes scroll-animation-coq {
+  from {
+    transform: translateX(15vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  img.coq-draw,
+  img.coq-draw-bg {
+    display: none;
+  }
+}

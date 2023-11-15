@@ -1,0 +1,108 @@
+section.producteurs {
+  padding: 5vh 15vw 10vh 15vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+
+  article {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10vh;
+
+    div {
+      border: 1px solid $border-gray-green;
+      border-radius: 20px;
+      padding: 5vh 0 10vh 3vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      position: relative;
+      animation: scroll-animation-div 2s both;
+      animation-timeline: view();
+      animation-range: entry 25% cover 50%;
+
+      h3 {
+        width: 60%;
+        color: $title-brown;
+        font-size: 1.1rem;
+      }
+
+      cite {
+        color: $content-green-lime;
+        font-size: .8rem;
+      }
+
+      p {
+        width: 70%;
+        color: $text-dark;
+        font-size: .7rem;
+        padding-top: 1vh;
+        border-top: 1px solid $brown-pal;
+        line-height: 1.2rem;
+      }
+
+      a {
+        font-size: .8rem;
+        color: $link-green-pal;
+        position: absolute;
+        bottom: 5vh;
+        right: 3vw;
+        transition: $transition-all;
+
+        &:hover {
+          color: $title-brown;
+        }
+      }
+
+      img {
+        width: 180px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: -50px;
+        right: -40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  section.producteurs {
+    padding: 5vh 0 10vh 0;
+    align-items: center;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      div {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section.producteurs article div {
+    width: 80%;
+  }
+}
+
+@keyframes scroll-animation-div {
+  from {
+    opacity: 0;
+    transform: translateY(15vh);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

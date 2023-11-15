@@ -1,0 +1,13 @@
+<svg id="Composant_12_1" data-name="Composant 12 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.601" height="63.788" viewBox="0 0 71.601 63.788">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_40" data-name="Rectangle 40" width="17.109" height="22.199" fill="none"/>
+        </clipPath>
+    </defs>
+    <path id="blob2" d="M-24.131-51.947c5.815,5.083,8.318,15.018,6.084,23.567-2.195,8.549-9.126,15.634-17.367,19.254a33.132,33.132,0,0,1-26.07.27c-8.395-3.5-15.75-10.628-16.828-18.33-1.04-7.7,4.2-15.942,10.282-21.1,6.046-5.122,12.939-7.2,20.948-8.087C-39.072-57.3-29.946-57.068-24.131-51.947Z" transform="translate(89.854 50.94) rotate(-14)" fill="#f0e4cd"/>
+    <g id="Groupe_1738" data-name="Groupe 1738" transform="translate(28.2 19.556)">
+        <g id="Groupe_24" data-name="Groupe 24" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <path id="Tracé_8081" data-name="Tracé 8081" d="M8.554,0A8.564,8.564,0,0,0,0,8.555a15.17,15.17,0,0,0,4.081,9.86,21.615,21.615,0,0,0,4.054,3.658.767.767,0,0,0,.839,0,21.6,21.6,0,0,0,4.054-3.658,15.167,15.167,0,0,0,4.081-9.86A8.565,8.565,0,0,0,8.554,0m0,13A4.445,4.445,0,1,1,13,8.554,4.45,4.45,0,0,1,8.555,13" transform="translate(0 0)" fill="#fff"/>
+        </g>
+    </g>
+</svg>

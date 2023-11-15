@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+menu, ul { list-style-type: none }
+a { text-decoration: none }
+
+button, input, textarea, fieldset {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input[type=checkbox] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: $bg-all;
+
+  &.active {
+    overflow: hidden;
+  }
+
+  main {
+    width: 100%;
+    position: relative;
+
+    section {
+      width: 100%;
+      position: relative;
+    }
+  }
+}
